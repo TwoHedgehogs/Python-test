@@ -1,0 +1,6 @@
+try:
+    import json
+except importError:
+    import simplejson as json
+
+print json.dumps({'python':2.7})
